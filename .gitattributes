@@ -1,3 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+.mp4 filter=lfs diff=lfs merge=lfs -text
+.zip filter=lfs diff=lfs merge=lfs -text
+*Function[[:space:]]Key[[:space:]]11.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4.*.zip filter=lfs diff=lfs merge=lfs -text
